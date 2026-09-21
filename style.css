@@ -223,3 +223,52 @@ main { max-width: 780px; margin: 0 auto; padding: 0 24px; }
   .project { grid-template-columns: 1fr; }
   .project-index { padding-top: 0; }
 }
+
+/* Activity 1 - Introduce Yourself */
+
+.hero-profile {
+  margin-bottom: 24px;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  border: 3px solid var(--blueprint);
+}
+
+.hero h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.hero-tagline {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  color: var(--blueprint);
+  font-family: var(--font-mono);
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-bottom: 30px;
+  border: 1px solid var(--blueprint);
+  border-radius: 6px;
+  background: var(--blueprint);
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.learn-more:hover {
+  background: transparent;
+  color: var(--blueprint);
+}
